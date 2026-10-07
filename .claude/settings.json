@@ -1,0 +1,30 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pnpm install)",
+      "Bash(pnpm install --frozen-lockfile)",
+      "Bash(pnpm lint)",
+      "Bash(pnpm typecheck)",
+      "Bash(pnpm test)",
+      "Bash(pnpm knip)",
+      "Bash(pnpm build)",
+      "Bash(pnpm --filter * test)",
+      "Bash(pnpm --filter * lint)",
+      "Bash(pnpm --filter * typecheck)",
+      "Bash(pnpm --filter * build)",
+      "Bash(pnpm exec expo install *)",
+      "Bash(pnpm exec expo install --check)",
+      "Bash(git status*)",
+      "Bash(git diff*)",
+      "Bash(git log*)"
+    ],
+    "deny": [
+      "Bash(git push*)",
+      "Bash(eas submit*)",
+      "Bash(eas update*)",
+      "Bash(firebase deploy*)",
+      "Bash(vercel --prod*)",
+      "Bash(vercel deploy --prod*)"
+    ]
+  }
+}

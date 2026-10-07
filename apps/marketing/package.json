@@ -1,0 +1,26 @@
+{
+  "name": "@aatam/marketing",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "test": "vitest run --passWithNoTests",
+    "lint": "eslint .",
+    "typecheck": "next typegen && tsc --noEmit"
+  },
+  "dependencies": {
+    "next": "^16.4.0",
+    "react": "catalog:",
+    "react-dom": "catalog:"
+  },
+  "devDependencies": {
+    "@types/node": "^24",
+    "@types/react": "catalog:",
+    "@types/react-dom": "~19.2.0",
+    "typescript": "catalog:",
+    "vitest": "catalog:"
+  }
+}

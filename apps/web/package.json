@@ -1,0 +1,27 @@
+{
+  "name": "@aatam/web",
+  "version": "0.0.0",
+  "private": true,
+  "main": "index.ts",
+  "scripts": {
+    "start": "expo start --web",
+    "build": "expo export --platform web",
+    "test": "vitest run --passWithNoTests",
+    "lint": "eslint .",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@expo/metro-runtime": "~57.0.16",
+    "expo": "~57.0.27",
+    "expo-status-bar": "~57.0.1",
+    "react": "catalog:",
+    "react-dom": "catalog:",
+    "react-native": "0.86.3",
+    "react-native-web": "^0.21.3"
+  },
+  "devDependencies": {
+    "@types/react": "catalog:",
+    "typescript": "catalog:",
+    "vitest": "catalog:"
+  }
+}

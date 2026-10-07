@@ -1,0 +1,30 @@
+node_modules/
+dist/
+.turbo/
+.next/
+.expo/
+web-build/
+expo-env.d.ts
+next-env.d.ts
+*.tsbuildinfo
+coverage/
+
+# Expo continuous native generation
+apps/*/ios/
+apps/*/android/
+.kotlin/
+*.jks
+*.p8
+*.p12
+*.key
+*.keystore
+*.mobileprovision
+*.pem
+.metro-health-check*
+
+# env / secrets
+.env
+.env*.local
+
+.DS_Store
+npm-debug.*

@@ -1,0 +1,17 @@
+{
+  "expo": {
+    "name": "aatam",
+    "slug": "aatam-web",
+    "version": "0.0.0",
+    "platforms": [
+      "web"
+    ],
+    "web": {
+      "favicon": "./assets/favicon.png",
+      "output": "single"
+    },
+    "updates": {
+      "enabled": false
+    }
+  }
+}
